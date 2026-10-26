@@ -1,0 +1,45 @@
+export const colors = {
+  navy: "#0F1B33",
+  navyLight: "#1E3A5F",
+  navyDark: "#0A1224",
+  purple: "#5B2A86",
+  purpleLight: "#7C3AED",
+  purpleDark: "#3E1D5C",
+  purpleTint: "rgba(91,42,134,0.10)",
+  purpleTintSoft: "rgba(91,42,134,0.05)",
+  paper: "#F4F5F7",
+  white: "#FFFFFF",
+  gray50: "#F9FAFB",
+  gray100: "#F3F4F6",
+  gray200: "#E5E7EB",
+  gray400: "#9CA3AF",
+  gray500: "#6B7280",
+  gray600: "#4B5563",
+  gray700: "#374151",
+  green50: "#F0FDF4",
+  green100: "#DCFCE7",
+  green200: "#BBF7D0",
+  green500: "#22C55E",
+  green600: "#16A34A",
+  green700: "#15803D",
+  red50: "#FEF2F2",
+  red100: "#FEE2E2",
+  red500: "#EF4444",
+  red600: "#DC2626",
+  red700: "#B91C1C",
+  blue50: "#EFF6FF",
+  blue100: "#DBEAFE",
+  blue600: "#2563EB",
+  blue800: "#1E40AF",
+} as const;
+
+/** Ancho máximo del contenido (equivale a max-w-md de la versión web). */
+export const MAX_WIDTH = 448;
+
+export const cardShadow = {
+  shadowColor: "#0F1B33",
+  shadowOpacity: 0.08,
+  shadowRadius: 12,
+  shadowOffset: { width: 0, height: 4 },
+  elevation: 2,
+} as const;
